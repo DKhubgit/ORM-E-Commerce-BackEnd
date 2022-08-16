@@ -15,12 +15,12 @@ Category.hasMany(Product, {
 
 Product.belongsToMany(Tag, {
   through: ProductTag,
-  onDelete: 'CASCADE' 
+  foreignKey: 'tag_id'
 })
 
 Tag.belongsToMany(Product, {
   through: ProductTag,
-  onDelete: 'CASCADE'
+  foreignKey: 'product_id'
 })
 
 module.exports = {
