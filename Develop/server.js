@@ -11,7 +11,8 @@ app.use(express.urlencoded({ extended: true }));
 
 app.use(routes);
 
-// sync sequelize models to the database, then turn on the server
+//uses the sequelize library to connect to our MySQL database 
+//it allows us to use the ORM
 sequelize.sync().then(() => {
   app.listen(PORT, () => {
     console.log(`App listening on port ${PORT}!`);
