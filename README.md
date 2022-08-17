@@ -48,6 +48,10 @@
 
   In the Develop folder, there is another folder called `seeds` which will populate our database with data. We can use those data to test our server API. Below is a walkthrough video which will show not only the functionality of the app but also the steps to get this app running.
 
+
+https://user-images.githubusercontent.com/103972201/185217116-74df6349-3815-40ff-9fee-3d2f94af79e5.mp4
+
+Credits to Clideo for compressing the video file!
   ## Questions
 
   GitHub profile: [https://github.com/DKhubgit](https://github.com/DKhubgit)
